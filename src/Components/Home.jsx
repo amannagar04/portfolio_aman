@@ -11,7 +11,7 @@ const Home = () => {
       </div>
 
       <div className="absolute bottom-10">
-        <a href="#" className="text-2xl text-cyan-300 font-mono">Skills</a>
+        <a href="#skills" className="text-2xl text-cyan-300 font-mono">Skills</a>
       </div>
     </div>
   )
