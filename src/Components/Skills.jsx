@@ -24,7 +24,7 @@ const Skills = () => {
         <div className="w-[200px] h-[200px] m-10 bg-cover bg-center" style={{ backgroundImage: `url(${powerbiImage})` }}></div>
       </div>
       <div className="">
-        <a href="#resume" className="text-2xl text-white font-mono">Resume</a>
+        <a href="#resume" className="text-2xl text-white font-mono">↓ Resume ↓</a>
       </div>
     </div>
   )

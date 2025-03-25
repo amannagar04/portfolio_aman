@@ -3,6 +3,8 @@ import Navbar from "./Components/Navbar"
 import Home from "./Components/Home"
 import Skills from "./Components/Skills"
 import Resume from "./Components/Resume"
+import Contact from "./Components/Contact"
+import Copyright from "./Components/Copyright"
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Home/>
       <Skills/>
       <Resume/>
+      <Contact/>
+      <Copyright/>
     </div>
   )
 }
