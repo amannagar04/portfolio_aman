@@ -1,20 +1,23 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
   return (
-    <div className="h-[100vh] flex flex-col justify-center items-center bg-gradient-to-r from-blue-400 to-blue-800">
-      <div className="text-7xl font-bold font-serif text-blue-100">
+    <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-400 to-blue-800 px-4 text-center">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-serif text-blue-100">
         Hi, I'm Aman Nagar
-      </div>
-      <div className="w-5/7 mt-6 text-3xl font-serif font-bold text-gray-200 text-center">
-      I am a passionate Web Developer with a strong foundation in HTML, CSS, JavaScript, and React. My expertise includes API integration, building dynamic and user-friendly websites, and a deep understanding of Data Structures and Algorithms. Currently pursuing a B.Tech in Electronics and Communication Engineering at Malaviya National Institute of Technology, Jaipur, I am eager to contribute my skills in frontend development and problem-solving to impactful projects.
-      </div>
+      </h1>
 
-      <div className="absolute bottom-10">
-        <a href="#skills" className="text-2xl text-cyan-300 font-mono">↓ Skills ↓</a>
-      </div>
-    </div>
-  )
-}
+      <p className="w-full sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] mt-6 text-lg sm:text-xl md:text-2xl font-serif font-semibold text-gray-200">
+        I am a passionate Web Developer with a strong foundation in HTML, CSS, JavaScript, and React. My expertise includes API integration, building dynamic and user-friendly websites, and a deep understanding of Data Structures and Algorithms. Currently pursuing a B.Tech in Electronics and Communication Engineering at Malaviya National Institute of Technology, Jaipur, I am eager to contribute my skills in frontend development and problem-solving to impactful projects.
+      </p>
 
-export default Home
+      <div className="absolute bottom-6 sm:bottom-10">
+        <a href="#skills" className="text-lg sm:text-xl text-cyan-300 font-mono">
+          ↓ Skills ↓
+        </a>
+      </div>
+    </section>
+  );
+};
+
+export default Home;

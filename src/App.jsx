@@ -8,7 +8,7 @@ import Copyright from "./Components/Copyright"
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full">
       <Navbar/>
       <Home/>
       <Skills/>
