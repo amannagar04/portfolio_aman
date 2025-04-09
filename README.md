@@ -49,3 +49,11 @@ This is a fully responsive, single-page portfolio website built using **React** 
 ![Skills](./screenshots/skills.png)
 ![Resume](./screenshots/resume.png)
 ![Contact](./screenshots/contact.png)
+
+## 🙋‍♂️ Author
+
+**Aman Nagar**
+
+- 📧 [amannagar1357@gmail.com](mailto:amannagar1357@gmail.com)  
+- 🔗 [LinkedIn Profile](https://www.linkedin.com/in/aman-nagar-a97aab28a/)  
+- 🐙 [GitHub Profile](https://github.com/amannagar04)
